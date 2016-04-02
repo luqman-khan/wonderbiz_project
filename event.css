@@ -1,0 +1,58 @@
+a{
+	font-size: 15px;
+	color: green;
+}
+
+.half_width{
+	width:49%;
+}
+
+.align_left{
+	text-align: left;
+}
+
+.align_right{
+	text-align: right;
+}
+
+.align_center{
+	text-align: center;
+}
+
+.float_right{
+	float: right;
+	margin-right: 5px;
+}
+
+.text_color{
+	color: #61210B;
+}
+.large{
+	font-size: 50px;
+}
+.bold{
+	font-weight: bold;
+}
+
+.event_entry{
+	text-align: center;
+}
+
+.red_text{
+	color: red;
+}
+
+.box{
+	border: 2px solid white	;
+	padding: 5px;
+	text-align: left;
+	margin:5px;
+	height: 15px;
+}
+
+body{
+	background-color: #E1F5A9;
+}
+span {
+	display:inline-block; 
+}

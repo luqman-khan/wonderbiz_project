@@ -1,0 +1,51 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="event.css">
+	</head>
+
+	<body>
+		<div>
+			<span class="align_left half_width">
+				<a id="prev" href="#" >Prev</a>
+			</span>
+			<span class="align_right half_width">
+				<a id="next" href="#" >Next</a>
+			</span>
+		</div>
+		<div>
+			<div class = "align_center">
+				<label id="day" class="large bold text_color"></label>
+			</div>
+			<div class = "align_center">
+				<label id="date" class="bold text_color"></label>
+			</div>
+		</div>
+		<div id = "1" class = "box">
+			<label id = "1_text" class = "bold text_color"></label>
+			<a id = "1_delete" href = "#" onclick="delete_event(0)" class = "red_text float_right "> Delete </a>
+		</div>
+		<div id = "2" class = "box">
+			<label id = "2_text" class = "bold text_color"></label>
+			<a id = "2_delete" href = "#" onclick="delete_event(1)" class = "red_text float_right "> Delete </a>
+		</div>
+		<div id = "3" class = "box">
+			<label id = "3_text" class = "bold text_color"></label>
+			<a id = "3_delete" href = "#" onclick="delete_event(2)" class = "red_text float_right "> Delete </a>
+		</div>
+		<div id = "4" class = "box">
+			<label id = "4_text" class = "bold text_color"></label>
+			<a id = "4_delete" href = "#" onclick="delete_event(3)" class = "red_text float_right "> Delete </a>
+		</div>
+		<div id = "5" class = "box">
+			<label id = "5_text" class = "bold text_color"></label>
+			<a id = "5_delete" href = "#" onclick="delete_event(4)" class = "red_text float_right "> Delete </a>
+		</div>
+		<div class = "event_entry">
+			<input id = "event_txt_box" type = "text" placeholder = "Add an event">
+			<a id = "add_event" href = "#">Add</a>
+		</div>
+		<script src="jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="event.js"></script>
+	</body>
+</html>
